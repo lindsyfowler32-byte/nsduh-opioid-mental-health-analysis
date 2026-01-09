@@ -1,5 +1,4 @@
-polychor(...)
+library(polycor)
 
-tetrachoric(...)
-
-print(...) statements for correlations
+cor_matrix <- polychor(...)
+print(cor_matrix)
