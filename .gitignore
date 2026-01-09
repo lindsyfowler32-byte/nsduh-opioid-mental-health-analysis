@@ -1,1 +1,10 @@
 *.RData
+# Ignore the large data file
+NSDUH_2024.RData
+
+# Ignore R history and temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
