@@ -21,6 +21,9 @@ The data used in this study comes from the [SAMHDA website](https://www.datafile
 *Note: Due to licensing and file size, the raw .RData file is not included in this repository.*
 Due to data use restrictions, raw NSDUH data are not included. Users must obtain access to NSDUH data independently and update file paths accordingly.
 
+### Analysis Result: Forest Plot of Odds Ratios
+![Opioid Mental Health Forest Plot](results/opioid_forest_plot.png)
+
 Author
 
 Lindsy Rae Fowler
