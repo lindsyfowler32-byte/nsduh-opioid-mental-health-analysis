@@ -47,3 +47,11 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large data files if they exceed 100MB (GitHub's limit)
+*.zip
+*.log
