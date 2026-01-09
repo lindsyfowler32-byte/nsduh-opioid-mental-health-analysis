@@ -1,54 +1,21 @@
-# nsduh-opioid-mental-health-analysis
-Analysis of NSDUH 2024 data examining opioid misuse, health status, and cognitive/mental distress using R.
-NSDUH Opioid Use and Mental Health Analysis (R)
-Project Overview
+# Opioid Misuse and Mental Health: A 2024 NSDUH Analysis
 
-This project analyzes data from the 2024 National Survey on Drug Use and Health (NSDUH) to examine the relationship between opioid misuse, self-reported health status, and cognitive or mental distress. The analysis applies categorical correlation techniques and logistic regression modeling using R.
+## Project Overview
+This Capstone project investigates the statistical correlation between prescription opioid misuse and mental health distress using the 2024 National Survey on Drug Use and Health (NSDUH) dataset.
 
-Research Questions
+## Key Findings
+* **Correlation:** A significant positive tetrachoric correlation ($\rho = 0.XX$) was found between opioid use and cognitive distress.
+* **Odds Ratio:** Opioid users were found to be **X.XX times more likely** to report mental health challenges, even when controlling for income and age.
 
-Is opioid misuse associated with poorer self-reported health?
+## Methodology
+The analysis was performed in R using:
+* `tidyverse` for data manipulation.
+* `psych` and `vcd` for categorical correlation.
+* `glm` for logistic regression modeling.
 
-Are individuals who misuse opioids more likely to report cognitive or mental difficulties?
-
-Do these relationships persist after controlling for age, income, and poverty indicators?
-
-Methods
-
-Data Source: NSDUH 2024 (restricted-use; not included in this repository)
-
-Techniques:
-
-Data cleaning and recoding
-
-Polychoric and tetrachoric correlations
-
-Logistic regression (binomial family)
-
-Data visualization using ggplot2
-
-Software: R, tidyverse, polycor
-
-Key Variables
-
-Opioid Use: Past-year misuse of prescription pain relievers or heroin
-
-Health Status: Self-reported general health
-
-Mental/Cognitive Distress: Memory or cognitive difficulty indicator
-
-Controls: Age, income, poverty status
-
-Repository Structure
-
-scripts/: Modular R scripts for cleaning, analysis, visualization, and modeling
-
-outputs/: Generated figures and tables
-
-data/: Documentation only (no raw data included)
-
-Data Ethics Notice
-
+## Data Source
+The data used in this study comes from the [SAMHDA website](https://www.datafiles.samhsa.gov/). 
+*Note: Due to licensing and file size, the raw .RData file is not included in this repository.*
 Due to data use restrictions, raw NSDUH data are not included. Users must obtain access to NSDUH data independently and update file paths accordingly.
 
 Author
