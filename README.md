@@ -1,3 +1,6 @@
+Project Summary: This research utilizes the 2024 National Survey on Drug Use and Health (NSDUH) to explore the intersection of substance use and psychological well-being. By applying Tetrachoric Correlation and Multivariate Logistic Regression, this project quantifies the increased odds of mental health distress among individuals misusing prescription opioids, while adjusting for socioeconomic factors like income and age.
+
+
 # Opioid Misuse and Mental Health: A 2024 NSDUH Analysis
 
 ## Project Overview
